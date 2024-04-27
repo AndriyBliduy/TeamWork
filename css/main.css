@@ -219,6 +219,7 @@ header {
     margin-left: 367px;
     margin-top: 66px;
     transition: all 0.5s ease;
+    cursor: pointer;
 }
 
 .blockStartexploring:hover {
