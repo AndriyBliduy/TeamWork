@@ -1,0 +1,702 @@
+@import url('https://fonts.googleapis.com/css2?family=Coiny&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Coiny&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Coiny&family=Comfortaa:wght@300..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+*,
+*:before,
+*:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:focus,
+:active {
+    outline: none;
+}
+
+a:focus,
+a:active {
+    outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+    display: block;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+    font-family: inherit;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+header {
+    width: 100%;
+    height: 693px;
+    background-color: #DAF2FF;
+
+}
+
+.wrap {
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+}
+
+.TxTctaTitle {
+    color: #F27970;
+    font-family: Coiny;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 32px;
+    margin-left: 329px;
+}
+
+.TxTctaTitleButton {
+    color: #000;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 40px;
+    transition: all 0.5s ease;
+}
+
+.TxTctaTitleButton:hover {
+    text-decoration: underline;
+}
+
+.blockLogin {
+    border-radius: 5px;
+    background: #7279B6;
+    width: 109px;
+    padding: 10px 10px 10px 28px;
+    gap: 10px;
+    margin-left: 83px;
+    margin-top: 30px;
+    transition: all 0.5s ease;
+}
+
+.blockLogin:hover {
+    transform: scale(1.1);
+}
+
+.TxTLogin {
+    color: #FDFCDC;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.blockSingup {
+    border-radius: 5px;
+    background: #FFF3B0;
+    width: 109px;
+    padding: 10px 10px 10px 19px;
+    gap: 10px;
+    margin-top: 30px;
+    margin-left: -19px;
+    transition: all 0.5s ease;
+}
+
+.blockSingup:hover {
+    transform: scale(1.1);
+}
+
+
+.TxTSingup {
+    color: #000;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.subTitle {
+    display: flex;
+    flex-direction: column;
+}
+
+.TxTDiscoverinteractive {
+    color: #080808;
+    font-family: Comfortaa;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 367px;
+    margin-top: 145px;
+}
+
+.TxTStartexploringnow {
+    color: #0A0A0A;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 367px;
+    margin-top: 41px;
+
+}
+
+.blockStartexploring {
+    border-radius: 5px;
+    background: #F27970;
+    width: 286px;
+    height: 47px;
+    padding: 10px 10px 10px 68px;
+    gap: 10px;
+    margin-left: 367px;
+    margin-top: 66px;
+    transition: all 0.5s ease;
+}
+
+.blockStartexploring:hover {
+    transform: scale(1.1);
+}
+
+.TxTStartexploring {
+    color: #FFF;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.BlockTitlePhoto {
+    background-image: url(/image/Component\ 4.png);
+    width: 328.671px;
+    height: 280.084px;
+    transform: rotate(-5.076deg);
+    margin-left: 1099px;
+    margin-top: -285px;
+}
+
+.photo {
+    display: flex;
+    flex-direction: row;
+    padding: 0px 420px;
+    margin-top: 31px;
+    margin-left: 10px;
+}
+
+.TxTExploreFunExperiments {
+    color: #F27970;
+    font-family: Comfortaa;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 51px;
+    margin-left: 424px;
+}
+
+.blocksquare {
+    width: 197.583px;
+    height: 285px;
+    border-radius: 5px;
+    background: var(--002, #FFF3B0);
+    margin-left: 13px;
+    margin-top: 100px;
+}
+
+.blockIcons {
+    margin-top: 165px;
+}
+
+.puzzle {
+    background-image: url(/image/Vector.svg);
+    background-repeat: no-repeat;
+    width: 129px;
+    height: 162px;
+    fill: var(--unnamed, #DAF2FF);
+    stroke-width: 0.613px;
+    stroke: #292524;
+    margin-left: 49px;
+}
+
+.okey {
+    background-image: url(/image/Component\ 11.svg);
+    width: 149px;
+    height: 147px;
+    margin-left: 43px;
+}
+
+.smile {
+    background-image: url(/image/Group\ 1000006153.png);
+    width: 179.365px;
+    height: 179.492px;
+    margin-left: 32px;
+}
+
+.pin {
+    background-image: url(/image/Component\ 16.svg);
+    width: 112px;
+    height: 162px;
+    margin-left: 80px;
+}
+
+.lightning {
+    background-image: url(/image/Vector.png);
+    background-repeat: no-repeat;
+    width: 91px;
+    height: 162px;
+    transform: rotate(-13.452deg);
+    margin-left: 75px;
+}
+
+.TxTBlockIcons {
+    color: #000;
+    font-family: Comfortaa;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 47px;
+    margin-left: 8px;
+}
+
+
+.TxTsubTitle {
+    color: #000;
+    font-family: Lato;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-left: 10px;
+    margin-top: -5px;
+}
+
+
+.line {
+    height: 5px;
+    stroke-width: 5px;
+    background-color: #7279B6;
+    margin: 0px 120px;
+    margin-top: 79px;
+
+}
+
+.titleCTA {
+    color: #F27970;
+    font-family: Comfortaa;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 72px;
+    text-align: center;
+}
+
+.buttonfirstrow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 13px;
+    margin-top: 75px;
+}
+
+.Buttonpastel {
+    width: 195px;
+    height: 49px;
+    border-radius: 5px;
+    background: var(--unnamed, #DAF2FF);
+    transition: all 0.5s ease-ins;
+}
+
+.Buttonpastel:hover {
+    text-decoration: underline;
+}
+
+.butpastel {
+    color: #000;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 7px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.buttonsecondrow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 13px;
+    margin-top: 13px;
+
+}
+
+.divPhoto {
+    background-image: url(/image/Знімок\ екрана\ 2024-04-18\ 153639.png);
+    background-repeat: no-repeat;
+    width: 91px;
+    height: 117.493px;
+    margin: -150px 0px 0px 1620px;
+
+}
+
+
+.buttonthirdrow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 13px;
+    margin-top: 13px;
+}
+
+.titleChooseyourplan {
+    color: #F27970;
+    font-family: Comfortaa;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    margin-top: 65px;
+}
+
+.blocks {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 64px;
+}
+
+.block {
+    width: 383px;
+    height: 361px;
+    border-radius: 5px;
+    background: var(--unnamed, #DAF2FF);
+
+}
+
+.TEXT {
+    color: #000;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 24px;
+    margin-left: 26px;
+}
+
+.TEXt {
+    color: #F27970;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 24px;
+    margin-left: 26px;
+}
+
+.txtFree {
+    color: #000;
+    font-family: Lato;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 6px;
+    margin-left: 26px;
+}
+
+
+.txt60 {
+    color: #FEC447;
+    font-family: Lato;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 26px;
+    margin-top: 6px;
+}
+
+.square {
+    width: 16px;
+    height: 16px;
+    background-image: url(/image/Rectangle\ 4.svg);
+    margin: 16px 0px 0px 17px;
+}
+
+.squarE {
+    width: 16px;
+    height: 16px;
+    background-image: url(/image/Rectangle.svg);
+    margin: 16px 0px 0px 17px;
+
+}
+
+.checkmark {
+    color: #2A372C;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: -26px 0px 0px 18px;
+}
+
+.checkmarK {
+    color: #FEC447;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: -26px 0px 0px 18px;
+}
+
+.input {
+    color: #000;
+    text-align: center;
+    font-family: Lato;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: -33px 0px 0px -90px;
+    display: flex;
+    flex-direction: column;
+    transition: all 0.5d ease;
+}
+
+.input:hover {
+    text-decoration: underline;
+}
+
+.inpuT {
+    color: #000;
+    text-align: center;
+    font-family: Lato;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: -33px 0px 0px -56px;
+    display: flex;
+    flex-direction: column;
+    transition: all 0.5d ease;
+}
+
+.inpuT:hover {
+    text-decoration: underline;
+}
+
+.inpUT {
+    color: #000;
+    text-align: center;
+    font-family: Lato;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: -33px 0px 0px -25px;
+    display: flex;
+    flex-direction: column;
+    transition: all 0.5d ease;
+}
+
+.inpUT:hover {
+    text-decoration: underline;
+}
+
+.input1 {
+    color: #000;
+    text-align: center;
+    font-family: Lato;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: -33px 0px 0px -150px;
+    display: flex;
+    flex-direction: column;
+    transition: all 0.5d ease;
+}
+
+.input1:hover {
+    text-decoration: underline;
+}
+
+.butBusic {
+    display: flex;
+    width: 300px;
+    height: 40px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background: #C5E4F4;
+    margin: 32px 42px 43px 41px;
+    transition: all 0.5s ease;
+}
+
+.butBusic:hover {
+    transform: scale(1.1);
+}
+
+.TXtBusic {
+    color: #000;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.butPro {
+    display: flex;
+    width: 300px;
+    height: 40px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+    background: #F27970;
+    margin: 32px 42px 43px 41px;
+    transition: all 0.5s ease;
+}
+
+.butPro:hover {
+    transform: scale(1.1);
+}
+
+
+.TXtPro {
+    color: #FFF;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+footer {
+    width: 1903px;
+    height: 314px;
+    background: var(--unnamed, #DAF2FF);
+    margin-top: 144px;
+    padding: 42px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.footerTitle {
+    color: #F27970;
+    font-family: Comfortaa;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 42px 0px 0px 119px;
+}
+
+.footersubTitle {
+    color: #000;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 23px 0px 0px 119px;
+}
+
+.TxTfooter a {
+    display: flex;
+    flex-direction: column;
+    width: 156px;
+    height: 29px;
+    color: #000;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-right: 105px;
+    transition: all 0.5s ease;
+}
+
+.TxTfooter a:hover {
+    text-decoration: underline;
+}
